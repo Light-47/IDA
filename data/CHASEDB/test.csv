@@ -1,0 +1,8 @@
+im_paths,gt_paths,mask_paths
+data/CHASEDB/images/Image_11R.jpg,data/CHASEDB/manual/Image_11R_1stHO.png,data/CHASEDB/masks/Image_11R.png
+data/CHASEDB/images/Image_12L.jpg,data/CHASEDB/manual/Image_12L_1stHO.png,data/CHASEDB/masks/Image_12L.png
+data/CHASEDB/images/Image_12R.jpg,data/CHASEDB/manual/Image_12R_1stHO.png,data/CHASEDB/masks/Image_12R.png
+data/CHASEDB/images/Image_13L.jpg,data/CHASEDB/manual/Image_13L_1stHO.png,data/CHASEDB/masks/Image_13L.png
+data/CHASEDB/images/Image_13R.jpg,data/CHASEDB/manual/Image_13R_1stHO.png,data/CHASEDB/masks/Image_13R.png
+data/CHASEDB/images/Image_14L.jpg,data/CHASEDB/manual/Image_14L_1stHO.png,data/CHASEDB/masks/Image_14L.png
+data/CHASEDB/images/Image_14R.jpg,data/CHASEDB/manual/Image_14R_1stHO.png,data/CHASEDB/masks/Image_14R.png

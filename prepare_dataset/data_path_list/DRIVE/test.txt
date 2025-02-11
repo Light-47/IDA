@@ -1,0 +1,4 @@
+D:/repo/IDDA/data/DRIVE/training/images/01_test.tif D:/repo/IDDA/data/DRIVE/training/1st_manual/01_manual1.gif D:/repo/IDDA/data/DRIVE/training/mask/01_test_mask.gif
+D:/repo/IDDA/data/DRIVE/training/images/02_test.tif D:/repo/IDDA/data/DRIVE/training/1st_manual/02_manual1.gif D:/repo/IDDA/data/DRIVE/training/mask/02_test_mask.gif
+D:/repo/IDDA/data/DRIVE/training/images/03_test.tif D:/repo/IDDA/data/DRIVE/training/1st_manual/03_manual1.gif D:/repo/IDDA/data/DRIVE/training/mask/03_test_mask.gif
+D:/repo/IDDA/data/DRIVE/training/images/04_test.tif D:/repo/IDDA/data/DRIVE/training/1st_manual/04_manual1.gif D:/repo/IDDA/data/DRIVE/training/mask/04_test_mask.gif

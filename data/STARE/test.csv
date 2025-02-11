@@ -1,0 +1,6 @@
+im_paths,gt_paths,mask_paths
+data/STARE/images/im0240.ppm,data/STARE/manual/im0240.ah.pgm,data/STARE/mask/mask_0240.png
+data/STARE/images/im0255.ppm,data/STARE/manual/im0255.ah.pgm,data/STARE/mask/mask_0255.png
+data/STARE/images/im0291.ppm,data/STARE/manual/im0291.ah.pgm,data/STARE/mask/mask_0291.png
+data/STARE/images/im0319.ppm,data/STARE/manual/im0319.ah.pgm,data/STARE/mask/mask_0319.png
+data/STARE/images/im0324.ppm,data/STARE/manual/im0324.ah.pgm,data/STARE/mask/mask_0324.png

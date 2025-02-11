@@ -1,0 +1,12 @@
+D:/repo/IDDA/data/CAM/test/images/image_29.jpg D:/repo/IDDA/data/CAM/test/manual/image_29.png D:/repo/IDDA/data/CAM/test/mask/image_29.png
+D:/repo/IDDA/data/CAM/test/images/image_30.jpg D:/repo/IDDA/data/CAM/test/manual/image_30.png D:/repo/IDDA/data/CAM/test/mask/image_30.png
+D:/repo/IDDA/data/CAM/test/images/image_31.jpg D:/repo/IDDA/data/CAM/test/manual/image_31.png D:/repo/IDDA/data/CAM/test/mask/image_31.png
+D:/repo/IDDA/data/CAM/test/images/image_32.jpg D:/repo/IDDA/data/CAM/test/manual/image_32.png D:/repo/IDDA/data/CAM/test/mask/image_32.png
+D:/repo/IDDA/data/CAM/test/images/image_33.jpg D:/repo/IDDA/data/CAM/test/manual/image_33.png D:/repo/IDDA/data/CAM/test/mask/image_33.png
+D:/repo/IDDA/data/CAM/test/images/image_34.jpg D:/repo/IDDA/data/CAM/test/manual/image_34.png D:/repo/IDDA/data/CAM/test/mask/image_34.png
+D:/repo/IDDA/data/CAM/test/images/image_35.jpg D:/repo/IDDA/data/CAM/test/manual/image_35.png D:/repo/IDDA/data/CAM/test/mask/image_35.png
+D:/repo/IDDA/data/CAM/test/images/image_36.jpg D:/repo/IDDA/data/CAM/test/manual/image_36.png D:/repo/IDDA/data/CAM/test/mask/image_36.png
+D:/repo/IDDA/data/CAM/test/images/image_37.jpg D:/repo/IDDA/data/CAM/test/manual/image_37.png D:/repo/IDDA/data/CAM/test/mask/image_37.png
+D:/repo/IDDA/data/CAM/test/images/image_38.jpg D:/repo/IDDA/data/CAM/test/manual/image_38.png D:/repo/IDDA/data/CAM/test/mask/image_38.png
+D:/repo/IDDA/data/CAM/test/images/image_39.jpg D:/repo/IDDA/data/CAM/test/manual/image_39.png D:/repo/IDDA/data/CAM/test/mask/image_39.png
+D:/repo/IDDA/data/CAM/test/images/image_40.jpg D:/repo/IDDA/data/CAM/test/manual/image_40.png D:/repo/IDDA/data/CAM/test/mask/image_40.png

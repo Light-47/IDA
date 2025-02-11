@@ -1,0 +1,29 @@
+SOURCE: DRIVE
+TARGET: CAM
+GPU_ID: 0
+NUM_WORKERS: 4
+TRAIN:
+  DA_METHOD: P2HCSL
+  MODEL: my_wnet
+  MULTI_LEVEL: True
+  RESTORE_FROM: scripts/experiments/10_31/DRIVE_WNET/model_last.pth
+  CLASS_CENTER_FEA_INIT: scripts/experiments/10_31/DRIVE_WNET/feas/class_center_feas_model_last.npy
+  CLASS_CENTER_M: 0.0 
+  # MPSCL
+  LAMBDA_MPCL_SRC: 1.0
+  LAMBDA_MPCL_TRG: 1.0  
+  SRC_TEMP:      1.0
+  SRC_BASE_TEMP: 1.0
+  TRG_TEMP:      1.0
+  TRG_BASE_TEMP: 1.0
+  # ##是否需要MARGIN
+  SRC_MARGIN:    0.4
+  TRG_MARGIN:    0.2
+  # Source CE & DICE 
+  LAMBDA_SEG_S_MAIN:  1.0
+  LAMBDA_SEG_S_AUX :  0.1  
+  LAMBDA_DICE_S_MAIN: 1.0
+  LAMBDA_DICE_S_AUX:  0.1  
+  # patch weights compared to whole weights
+  LAMBDA_Patch_MAIN: 1.0
+  LAMBDA_Patch_AUX: 1.0

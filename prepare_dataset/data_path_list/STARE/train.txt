@@ -1,0 +1,15 @@
+D:/repo/IDDA/data/STARE/images/im0001.ppm D:/repo/IDDA/data/STARE/manual/im0001.ah.pgm D:/repo/IDDA/data/STARE/mask/mask_0001.png
+D:/repo/IDDA/data/STARE/images/im0002.ppm D:/repo/IDDA/data/STARE/manual/im0002.ah.pgm D:/repo/IDDA/data/STARE/mask/mask_0002.png
+D:/repo/IDDA/data/STARE/images/im0003.ppm D:/repo/IDDA/data/STARE/manual/im0003.ah.pgm D:/repo/IDDA/data/STARE/mask/mask_0003.png
+D:/repo/IDDA/data/STARE/images/im0004.ppm D:/repo/IDDA/data/STARE/manual/im0004.ah.pgm D:/repo/IDDA/data/STARE/mask/mask_0004.png
+D:/repo/IDDA/data/STARE/images/im0005.ppm D:/repo/IDDA/data/STARE/manual/im0005.ah.pgm D:/repo/IDDA/data/STARE/mask/mask_0005.png
+D:/repo/IDDA/data/STARE/images/im0044.ppm D:/repo/IDDA/data/STARE/manual/im0044.ah.pgm D:/repo/IDDA/data/STARE/mask/mask_0044.png
+D:/repo/IDDA/data/STARE/images/im0077.ppm D:/repo/IDDA/data/STARE/manual/im0077.ah.pgm D:/repo/IDDA/data/STARE/mask/mask_0077.png
+D:/repo/IDDA/data/STARE/images/im0081.ppm D:/repo/IDDA/data/STARE/manual/im0081.ah.pgm D:/repo/IDDA/data/STARE/mask/mask_0081.png
+D:/repo/IDDA/data/STARE/images/im0082.ppm D:/repo/IDDA/data/STARE/manual/im0082.ah.pgm D:/repo/IDDA/data/STARE/mask/mask_0082.png
+D:/repo/IDDA/data/STARE/images/im0139.ppm D:/repo/IDDA/data/STARE/manual/im0139.ah.pgm D:/repo/IDDA/data/STARE/mask/mask_0139.png
+D:/repo/IDDA/data/STARE/images/im0162.ppm D:/repo/IDDA/data/STARE/manual/im0162.ah.pgm D:/repo/IDDA/data/STARE/mask/mask_0162.png
+D:/repo/IDDA/data/STARE/images/im0163.ppm D:/repo/IDDA/data/STARE/manual/im0163.ah.pgm D:/repo/IDDA/data/STARE/mask/mask_0163.png
+D:/repo/IDDA/data/STARE/images/im0235.ppm D:/repo/IDDA/data/STARE/manual/im0235.ah.pgm D:/repo/IDDA/data/STARE/mask/mask_0235.png
+D:/repo/IDDA/data/STARE/images/im0236.ppm D:/repo/IDDA/data/STARE/manual/im0236.ah.pgm D:/repo/IDDA/data/STARE/mask/mask_0236.png
+D:/repo/IDDA/data/STARE/images/im0239.ppm D:/repo/IDDA/data/STARE/manual/im0239.ah.pgm D:/repo/IDDA/data/STARE/mask/mask_0239.png
