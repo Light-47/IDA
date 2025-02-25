@@ -278,16 +278,16 @@ def train_p2hcsl(model, ema_model, whole_src_loader, whole_trg_loader, patch_src
             class_mask[0], class_mask[1] = class_mask[0].cuda(device), class_mask[1].cuda(device)
             patch_src_labels, whole_src_labels = patch_src_labels.cuda(device), whole_src_labels.cuda(device)
             if cfg.TRAIN.MULTI_LEVEL:
-                loss_seg_s_aux = cfg.TRAIN.LAMBDA_Patch_AUX * loss_calc(pred_s2t_aux * class_mask[0], patch_src_labels.to(torch.int64), device) + \
-                                loss_calc(pred_t2s_aux * (1-mask[0]), whole_src_labels.to(torch.int64), device) 
-                loss_dice_s_aux = cfg.TRAIN.LAMBDA_Patch_AUX * dice_loss(pred_s2t_aux * class_mask[0], patch_src_labels.to(torch.int64), device) + \
-                                dice_loss(pred_t2s_aux * (1-mask[0]), whole_src_labels.to(torch.int64), device)
+                loss_seg_s_aux = cfg.TRAIN.LAMBDA_Patch_AUX * loss_calc(pred_s2t_aux * class_mask[0], (patch_src_labels*class_mask[1]).to(torch.int64), device) + \
+                                loss_calc(pred_t2s_aux * (1-mask[0]), (whole_src_labels*(1-mask[1])).to(torch.int64), device) 
+                loss_dice_s_aux = cfg.TRAIN.LAMBDA_Patch_AUX * dice_loss(pred_s2t_aux * class_mask[0], (patch_src_labels*class_mask[1]).to(torch.int64), device) + \
+                                dice_loss(pred_t2s_aux * (1-mask[0]), (whole_src_labels*(1-mask[1])).to(torch.int64), device)
             else:
                 loss_seg_s_aux, loss_dice_s_aux = 0, 0
-            loss_seg_s_main = cfg.TRAIN.LAMBDA_Patch_MAIN * loss_calc(pred_s2t_main * class_mask[0], patch_src_labels.to(torch.int64), device) + \
-                            loss_calc(pred_t2s_main * (1-mask[0]), whole_src_labels.to(torch.int64), device) 
-            loss_dice_s_main = cfg.TRAIN.LAMBDA_Patch_MAIN * dice_loss(pred_s2t_main * class_mask[0], patch_src_labels.to(torch.int64), device) + \
-                            dice_loss(pred_t2s_main * (1-mask[0]), whole_src_labels.to(torch.int64), device)
+            loss_seg_s_main = cfg.TRAIN.LAMBDA_Patch_MAIN * loss_calc(pred_s2t_main * class_mask[0], (patch_src_labels*class_mask[1]).to(torch.int64), device) + \
+                            loss_calc(pred_t2s_main * (1-mask[0]), (whole_src_labels*(1-mask[1])).to(torch.int64), device) 
+            loss_dice_s_main = cfg.TRAIN.LAMBDA_Patch_MAIN * dice_loss(pred_s2t_main * class_mask[0], (patch_src_labels*class_mask[1]).to(torch.int64), device) + \
+                            dice_loss(pred_t2s_main * (1-mask[0]), (whole_src_labels*(1-mask[1])).to(torch.int64), device)
                  
             ''' 无标签数据使用一致性损失 '''
             '''目标域分别使用MSE loss, 保证teacher, student网络输出一致'''
@@ -295,8 +295,8 @@ def train_p2hcsl(model, ema_model, whole_src_loader, whole_trg_loader, patch_src
             unlabeled_weight_patch = torch.sum(max_probs_patch.ge(0.9).long() == 1).item() / np.size(np.array(max_probs_patch.cpu()))
             consistency_weight = 1.0  # Rough, default=1.0
             # MSE的输入 在函数内部处理为 soft label
-            Con_loss = consistency_weight * (unlabeled_weight_whole * mix_loss(pred_s2t_main*(1-class_mask[0]), pred_trg_whole) + \
-                                             unlabeled_weight_patch * mix_loss(pred_t2s_main*mask[0],     pred_trg_patch))
+            Con_loss = consistency_weight * (unlabeled_weight_whole * mix_loss(pred_s2t_main*(1-class_mask[0]), pred_trg_whole*(1-class_mask[0])) + \
+                                             unlabeled_weight_patch * mix_loss(pred_t2s_main*mask[0], pred_trg_patch*mask[0]))
         
         '''all'''
         seg_loss = (cfg.TRAIN.LAMBDA_SEG_S_MAIN * loss_seg_s_main
