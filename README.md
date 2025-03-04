@@ -16,9 +16,11 @@ You can modify training parameters in `scripts/configs/DRIVE2CAM.yml`, `domain_a
 
 The training weights will be saved in `scripts/experiments/`
 ## Testing
+Once you own the model weights, run `generate_results_new.py` to get the predictions.
 
+And the evaluation metrics(AUC, ACC, SE, SP, DICE) can be computed by running `analyze_results_test.py`.
 ## Dataset and Weights
-For the CAM_DB dataset and training weights, please download from this [link](https://drive.google.com/drive/folders/1ixgoOKNaco7yQKrc0doH444L8pJYoqar?usp=sharing) 
+For the CAM_DB dataset and model weights, please download from this [link](https://drive.google.com/drive/folders/1ixgoOKNaco7yQKrc0doH444L8pJYoqar?usp=sharing) 
 ## References
 * [MPSCL](https://github.com/TFboys-lzz/MPSCL)
 * [VesselSeg](https://github.com/lee-zq/VesselSeg-Pytorch)
