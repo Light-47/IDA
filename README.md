@@ -11,7 +11,9 @@ Implementation for paper **Intermediate Domain-guided Adaptation for Unsupervise
 * torchvision==0.14.1+cu116
 ## Training
 If you want to train your own model, please run: `python train.py`
+
 You can modify training parameters in `scripts/configs/DRIVE2CAM.yml`, `domain_adaptation/config_vessel.py` and 'parser_train.py'
+
 The training weights will be saved in `scripts/experiments/`
 ## Testing
 
