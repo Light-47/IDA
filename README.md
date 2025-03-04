@@ -1,5 +1,5 @@
 # IDA
-Implementation for paper **Intermediate Domain-guided Adaptation for Unsupervised Chorioallantoic Membrane Vessel Segmentation**
+> Implementation for paper **Intermediate Domain-guided Adaptation for Unsupervised Chorioallantoic Membrane Vessel Segmentation**
 ## Requirements
 * matplotlib==3.5.1
 * numpy==1.23.4
