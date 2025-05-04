@@ -1,6 +1,8 @@
 # IDA
 > Implementation for paper **Intermediate Domain-guided Adaptation for Unsupervised Chorioallantoic Membrane Vessel Segmentation**
+
 <img src="https://badges.toozhao.com/badges/01JSZY7BEB0WS6GKTKA47X4AEC/green.svg" />
+
 ## Requirements
 * matplotlib==3.5.1
 * numpy==1.23.4
@@ -10,6 +12,7 @@
 * torch==1.13.1+cu116
 * torchaudio==0.13.1+cu116
 * torchvision==0.14.1+cu116
+
 ## Training
 If you want to train your own model, please run: `python train.py`
 
