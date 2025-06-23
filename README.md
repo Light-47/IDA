@@ -26,6 +26,8 @@ And the evaluation metrics(AUC, ACC, SE, SP, DICE) can be computed by running `a
 
 ## Dataset and Weights
 For the CAM_DB dataset and model weights, please download from this [link](https://drive.google.com/drive/folders/1ixgoOKNaco7yQKrc0doH444L8pJYoqar?usp=sharing) 
+
+Now, an expanded CAM_DB dataset is available. We will release it to the public once the paper is accepted.
 ## References
 * [MPSCL](https://github.com/TFboys-lzz/MPSCL)
 * [VesselSeg](https://github.com/lee-zq/VesselSeg-Pytorch)
