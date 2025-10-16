@@ -2,7 +2,7 @@
 > Implementation for paper **Intermediate Domain-guided Adaptation for Unsupervised Chorioallantoic Membrane Vessel Segmentation**
 
 <!-- Page Views Badge -->
-<p align="center">
+<p align="left">
   <img src="https://komarev.com/ghpvc/?username=Light-47&label=Profile%20Views&color=blue&style=flat" alt="Page Views" />
 </p>
 
