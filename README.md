@@ -31,7 +31,14 @@ And the evaluation metrics(AUC, ACC, SE, SP, DICE) can be computed by running `a
 For the CAM_DB dataset and model weights, please download from this [link](https://drive.google.com/drive/folders/1ixgoOKNaco7yQKrc0doH444L8pJYoqar?usp=sharing) (2025.3)
 
 Now, an expanded CAM_DB dataset is available. We will release it to the public once the paper is accepted. (2025.7)
-## References
-* [MPSCL](https://github.com/TFboys-lzz/MPSCL)
-* [VesselSeg](https://github.com/lee-zq/VesselSeg-Pytorch)
-* [WNet](https://github.com/agaldran/lwnet)
+## Acknowledgement
+We would like to thank [MPSCL](https://github.com/TFboys-lzz/MPSCL), [VesselSeg](https://github.com/lee-zq/VesselSeg-Pytorch), [WNet](https://github.com/agaldran/lwnet) for their valuable models and ideas.
+## Citation
+```
+@article{song2025intermediate,
+  title = {Intermediate Domain-guided Adaptation for Unsupervised Chorioallantoic Membrane Vessel Segmentation},
+  author = {Song, Peng and Wang, Zhi and Yao, Peng and others},
+  journal = {arXiv preprint arXiv:2503.03546},
+  year = {2025}
+}
+```
