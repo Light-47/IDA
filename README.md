@@ -28,9 +28,9 @@ If you have ownd the model weights, run `generate_results_new.py` to get the pre
 And the evaluation metrics(AUC, ACC, SE, SP, DICE) can be computed by running `analyze_results_test.py`.
 
 ## Dataset and Weights
-For the CAM_DB dataset and model weights, please download from this [link](https://drive.google.com/drive/folders/1ixgoOKNaco7yQKrc0doH444L8pJYoqar?usp=sharing) 
+For the CAM_DB dataset and model weights, please download from this [link](https://drive.google.com/drive/folders/1ixgoOKNaco7yQKrc0doH444L8pJYoqar?usp=sharing) (2025.3)
 
-Now, an expanded CAM_DB dataset is available. We will release it to the public once the paper is accepted.
+Now, an expanded CAM_DB dataset is available. We will release it to the public once the paper is accepted. (2025.7)
 ## References
 * [MPSCL](https://github.com/TFboys-lzz/MPSCL)
 * [VesselSeg](https://github.com/lee-zq/VesselSeg-Pytorch)
