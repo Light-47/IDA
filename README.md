@@ -1,9 +1,9 @@
 # IDA
 > Implementation for paper **Intermediate Domain-guided Adaptation for Unsupervised Chorioallantoic Membrane Vessel Segmentation**
 
-<!-- Page Views Badge -->
+<!-- Project Views -->
 <p align="left">
-  <img src="https://komarev.com/ghpvc/?username=Light-47&label=Profile%20Views&color=blue&style=flat" alt="Page Views" />
+  <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FLight-47%2FIDA&count_bg=%2379C83D&title_bg=%23555555&title=views&edge_flat=false" alt="IDA Views" />
 </p>
 
 ## Requirements
