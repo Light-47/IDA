@@ -1,5 +1,5 @@
 # IDA
-<div align="center">
+<div align="left">
 
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=Light-47/IDA)
 
