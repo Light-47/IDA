@@ -28,7 +28,7 @@ If you have ownd the model weights, run `generate_results_new.py` to get the pre
 
 And the evaluation metrics(AUC, ACC, SE, SP, DICE) can be computed by running `analyze_results_test.py`.
 
-The implementation of the BM metric can refer to [this link].(https://github.com/nstucki/Betti-Matching-3D) 
+The implementation of the BM metric can refer to [this link](https://github.com/nstucki/Betti-Matching-3D) 
 
 ## Dataset and Weights
 For the CAM_DB dataset and model weights, please download from this [link](https://drive.google.com/drive/folders/1ixgoOKNaco7yQKrc0doH444L8pJYoqar?usp=sharing) (2025.3)
