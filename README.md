@@ -26,9 +26,9 @@ The training weights will be saved in `scripts/experiments/`
 ## Testing
 If you have ownd the model weights, run `generate_results_new.py` to get the predictions.
 
-And the evaluation metrics (AUC, ACC, SE, SP, DICE) can be computed by running `analyze_results_test.py`.
+And the evaluation metrics (AUC, ACC, SE, SP, DICE, clDICE，BM) can be computed by running `analyze_results_test.py`.
 
-The implementation of the BM metric can refer to [this repo](https://github.com/nstucki/Betti-Matching-3D).
+For compilation and installation of the BM metric, please refer to [this repo](https://github.com/nstucki/Betti-Matching-3D).
 
 ## Dataset and Weights
 For the CAM_DB dataset and model weights, please download from this [link](https://drive.google.com/drive/folders/1ixgoOKNaco7yQKrc0doH444L8pJYoqar?usp=sharing). (2025.3)
